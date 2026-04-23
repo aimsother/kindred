@@ -130,6 +130,21 @@
       vertical-align: middle;
     }
 
+    .article-end-figure {
+      margin: 1.75rem 0 0;
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      background: #e8e4de;
+    }
+
+    .article-end-figure img {
+      width: 100%;
+      height: auto;
+      display: block;
+      vertical-align: middle;
+    }
+
     main {
       flex: 1;
       max-width: var(--article-max);
@@ -467,7 +482,7 @@
 
       <figure class="article-lead-figure">
         <img
-          src="image.webp"
+          src="image1.jpg"
           alt="Single mother working from home with her children nearby"
           loading="eager"
           decoding="async"
@@ -580,6 +595,15 @@
         <p>
           Elena’s final words to anyone still hesitating: <em>“I was exactly where you are. Exhausted. Scared. Thinking no way out. The form takes 60 seconds. What do you have to lose?”</em>
         </p>
+
+        <figure class="article-end-figure">
+          <img
+            src="image2.jpg"
+            alt="Elena at home with her children, stable and at peace"
+            loading="lazy"
+            decoding="async"
+          />
+        </figure>
       </article>
 
       <aside class="cta">
